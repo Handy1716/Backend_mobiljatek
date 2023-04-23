@@ -64,5 +64,57 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "8dce49fd-77c9-4253-9d8c-3e4c7e6bff01",
+    "colId": "history",
+    "containerId": "",
+    "name": "Player",
+    "url": "http://localhost:3000/player",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-23T18:17:28.964Z",
+    "modified": "2023-04-23T20:08:39.082Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "60f86285-7db8-4f12-a23e-5814d0b19a7f",
+    "colId": "history",
+    "containerId": "",
+    "name": "Player",
+    "url": "http://localhost:3000/player",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-23T18:17:28.964Z",
+    "modified": "2023-04-23T20:09:48.203Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"a@a.hu\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5e8d8f8f-befe-4fcc-9203-c9b12e259a3e",
+    "colId": "history",
+    "containerId": "",
+    "name": "Player",
+    "url": "http://localhost:3000/player/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-04-23T18:17:28.964Z",
+    "modified": "2023-04-23T20:10:41.489Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"a@a.hu\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
